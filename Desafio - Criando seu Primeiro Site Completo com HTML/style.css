@@ -68,7 +68,7 @@ ul li:hover {
 .content {
     background-color: white;
     height: auto;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -134,6 +134,42 @@ tr:nth-child(even) {
     font-size: 15px;
     font-style: italic;
 }
+
+.enderecos {
+    width: 100%;
+    background-color: #0fc0a5;
+    margin-top: 4vw;
+    color: white;
+}
+
+fieldset {
+    margin-top: 10vh;
+    width: 100%;
+    border: #0fc0a5;
+    height: 15vw;
+}
+
+fieldset legend {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    border: 3px solid #0fc0a5;
+    border-radius: 10px;
+}
+
+
 
 #home-img {
     background: url(https://images.unsplash.com/photo-1589279003513-467d320f47eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80) no-repeat;
