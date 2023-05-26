@@ -45,21 +45,25 @@
                     <legend><h2><svg fill="#0fc0a5" width="30px" height="30px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M17 11v3l-3-3H8a2 2 0 0 1-2-2V2c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-1zm-3 2v2a2 2 0 0 1-2 2H6l-3 3v-3H2a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h2v3a4 4 0 0 0 4 4h6z"></path></g></svg> Fale Conosco</h2></legend>
                     <div class="formulario">
                         <form action="post">
-                            <label for="nome">Nome Completo:</label>
-                            <input type="text" id="nome" required>
-                            <br>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" required>
-                            <br>
-                            <label for="nome">Celular:</label>
-                            <input type="tel" id="numero" required>
-                            <br>
-                            <br>
-                            <label for="nome">Assunto:</label>
-                            <textarea rows="5" cols="30" placeholder="Escreva sua mensagem aqui"></textarea><br>
-                            <br>
-                            <button type="reset">Limpar</button>
-                            <button type="submit">Enviar</button>
+                            <div id="informacoes">
+                                <label for="nome">Nome Completo:</label>
+                                <input type="text" id="nome" required>
+                                <br>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" required>
+                                <br>
+                                <label for="nome">Celular:</label>
+                                <input type="tel" id="numero" required>
+                                <br>
+                            </div>
+                            <div id="assunto">
+                                <label for="nome">Assunto:</label>
+                                <textarea rows="5" cols="30" placeholder="Escreva sua mensagem aqui"></textarea><br>
+                            </div>
+                            <div id="botoes">
+                                <button type="reset">Limpar</button>
+                                <button type="submit">Enviar</button>
+                            </div>
                         </form>
                     </div>
                 </fieldset>
