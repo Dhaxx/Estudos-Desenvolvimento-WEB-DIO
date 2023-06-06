@@ -47,6 +47,65 @@ mark {
     width: 100%;
 }
 
+.main .title {
+    border-bottom: 1px solid;
+}
+
 .main iframe {
     width: 100%;
+}
+
+.main figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
+}
+
+.main figure img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+figcaption {
+    background-color: #CDCDCD;
+    color: #000000;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.main table {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid rgb(182, 165, 165);
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #cdcdcd;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#serie::before {
+    content: "'";
+    background-color: black;
+    margin-right: 2px;
+    height: 2px;
+    width: 2px;
+}
+
+.logo {
+    padding-left: 10px;
 }
